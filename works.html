@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Portfolio_works</title>
+		<link rel="stylesheet" type="text/css" href="style_works.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script>
+			function show1(n) {
+				var text;
+				switch(n) {
+					case 1 :
+					text = "Photo from Saga, Japan - On street";
+					break;
+
+					case 2 : 
+					text = "Photo from Saga, Japan - River in front of Saga prefectural office";
+					break;
+
+					case 3 :
+					text = "Photo from Saga, Japan - Saga prefectural office";
+					break;
+
+					case 4 :
+					text = "Photo from Saga, Japan - Restaurant  季楽-きら";
+					break;
+
+					case 5 :
+					text = "Photo from Taipei, Taiwan - Jiufen street";
+					break;
+
+					case 6 :
+					text = "Photo from Taipei, Taiwan - Jiufen mountain view";
+					break;
+
+					case 7 :
+					text = "Photo from Seoul, Korea - Gyeongbokgung";
+					break;
+				}
+				document.getElementById("works1-text").innerHTML = text;
+			}
+			function show2(n) {
+				var text;
+				switch (n) {
+					case 1 :
+					text = "Drawing 2017 - Expressing shade";
+					break;
+
+					case 2 :
+					text = "Drawing 2017 - Visualizing sound (Dolle Jolle - Balearic Incarnation)";
+					break;
+
+					case 3 :
+					text = "Drawing 2017 - Expressing myself";
+					break;
+				}
+				document.getElementById("works4-text").innerHTML = text;
+			}
+		</script>
+	</head>
+
+	<body>
+		<div class="works-page">
+
+
+			<div class="photos">
+				<div class="works-title">
+					<pre> Photos</pre>
+				</div>
+				<div class="works-content" id="works1-content">
+					<img onclick="show1(1)" src="IMG_0708.JPG" alt="photo4">
+					<img onclick="show1(2)" src="IMG_0466.JPG" alt="photo5">
+					<img onclick="show1(3)" src="IMG_0483.JPG" alt="photo6">
+					<img onclick="show1(4)" src="IMG_1341.jpg" alt="photo7">
+					<img onclick="show1(5)" src="DSC01798.JPG" alt="photo8">
+					<img onclick="show1(6)" src="DSC01783.JPG" alt="photo9">
+					<img onclick="show1(7)" src="IMG_2514.JPG" alt="photo10">
+				</div>
+				<div class="works-text">
+					<p id="works1-text"> </p>
+				</div>
+			</div>
+
+
+			<div class="performance">
+				<div class="works-title" id="works2-title">
+					<pre> Performances</pre>
+				</div>
+				<div class="works-content" id="works2-content">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/7WV3p-ni96Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/dItrpELdgsM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Dk5XaIwZoGk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/S0xdDqAOwk4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/MyUHbaQ4UZU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/WgR_mWzEiIE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/sd4rm8sBTcU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/AuKkUeWyHGA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="drawing">
+				<div class="works-title">
+					<pre> Drawing</pre>
+				</div>
+				<div class="works-content" id="works4-content">
+					<img onclick="show2(1)" src="img1.jpg" alt="photo1">
+					<img onclick="show2(2)" src="img2.jpg" alt="photo2">
+					<img onclick="show2(3)" src="img3.jpg" alt="photo3">
+				</div>
+				<div class="works-text">
+					<p id="works4-text"> </p>
+				</div>
+			</div>
+
+			<div class="design">
+				<div class="works-title">
+					<pre> Design</pre>
+				</div>
+				<div class="works3-content" id="works3-content">
+					<video id="works3-content" controls> <source src="final-notice.mp4" type="video/mp4"> </video>
+				</div>
+				<div class="works3-text">
+					<p>UI/UX 2017 - SogangTalkTalk application renewal<br>with Jaewon Kim, Yujin Shin</p>
+				</div>
+			</div>
+
+			<div class="intro-foot">
+				<p>Made by Cheon Jihyun, 2017</p>
+			</div>
+
+			<div class="left-button">
+				<a href="intro.html" target="_self"><i class="fa fa-angle-left"></i></a>
+			</div>
+		</div>
+	</body>
+</html>

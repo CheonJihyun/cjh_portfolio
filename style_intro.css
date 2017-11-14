@@ -1,0 +1,117 @@
+@font-face {
+	font-family : Oregano-Regular;
+	src : url(Oregano-Regular.ttf);
+}
+
+@font-face {
+	font-family : larabiefont;
+	src : url(larabiefont.ttf);
+}
+
+body {
+	background-color : white;
+	font-family : larabiefont;
+	overflow : scroll;
+}
+
+.intro-title p {
+	text-align : center;
+}
+
+.intro-title img {
+	padding-top : 3%;
+	padding-bottom : 8%;
+	width : 25%;
+	height : auto;
+	z-index : -1;
+}
+
+#name {
+	position : absolute;
+	top : 58%;
+	left : 44%;
+	color : indigo;
+	animation-name : flicker;
+	animation-duration : 2.5s;
+	animation-delay : 1s;
+	animation-iteration-count : 2;
+}
+
+@keyframes flicker {
+	0% {opacity : 0.7;}
+	8% {opacity : 0.1;}
+	14% {opacity : 0.7;}
+	20% {opacity : 0.1;}
+	30% {opacity : 0.6;}
+	32% {opacity : 0.1;}
+	34% {opacity : 0.7;}
+	40% {opacity : 0.2;}
+	58% {opacity : 0.8;}
+	68% {opacity : 0.2;}
+	80% {opacity : 0.6;}
+	86% {opacity : 0.1;}
+	92% {opacity : 0.8;}
+	97% {opacity : 0.1;}
+	100% {opacity : 1.0;}
+}
+
+
+/* intro-content */
+.intro-content {
+	margin-top : 10%;
+}
+
+.intro-content img {
+	position : relative;
+	width : 27%;
+	height : auto;
+	float : right;
+	padding-right : 18%;
+	padding-top : 1.5%;
+}
+
+.intro-text {
+	position : relative;
+	float : left;
+	padding-left : 18%;
+}
+
+.intro-text p {
+	text-align : right;
+	font-size : 0.8em;
+}
+
+.intro-foot {
+	position : relative;
+	clear : left;
+	padding : 10%;
+}
+
+.intro-foot p {
+	text-align : center;
+	font-family : larabiefont;
+	font-size : 0.75em;
+}
+
+/* intro 화면 오른쪽의 button */
+.right-button {
+	position : fixed;
+	top : 0;
+	right : 0;
+	width : 4%;
+	height : 100%;
+	background-color : DarkGray;
+	opacity : 0.15;
+}
+
+.right-button i {
+	position : fixed;
+	right : 1.4%;
+	top : 49%;
+	font-size : 3.2em;
+	color : white;
+}
+
+div.right-button:hover{
+	opacity : 0.55;
+}

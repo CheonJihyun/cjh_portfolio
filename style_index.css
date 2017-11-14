@@ -1,0 +1,22 @@
+body {
+	background-color : white;
+	overflow : hidden;
+}
+
+.main-title p {
+	text-align : center;
+}
+
+.main-title img {
+	padding-top : 8%;
+	width : 38%;
+	height : auto;
+}
+
+.main-button img {
+	position : relative;
+	float : right;
+	bottom : 0;
+	width : 16%;
+	height : auto;
+}

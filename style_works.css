@@ -1,0 +1,134 @@
+@font-face {
+	font-family : Oregano-Regular;
+	src : url(Oregano-Regular.ttf);
+}
+
+@font-face {
+	font-family : larabiefont;
+	src : url(larabiefont.ttf);
+}
+
+body {
+	background-color : white;
+	overflow-y : scroll;
+	overflow-x : scroll;
+}
+
+/* works 공통 */
+.works-title {
+	position : absolute;
+	left : 3%;
+	padding-top : 10%;
+	transform : rotate(-90deg);
+}
+
+.works-title pre {
+	font-size : 1.6em;
+	font-weight : 200;
+	font-family : larabiefont;
+}
+
+.works-content {
+	width : 1000px;
+	height : 460px;
+	margin-top : 5%;
+	margin-left : 15%;
+	overflow-x : scroll;
+	overflow-y : hidden;
+	white-space : nowrap;
+}
+
+/* works1 content */
+#works1-content img {
+	height : 100%;
+	width : auto;
+	position : relative;
+	padding-right : 3%;
+	cursor : pointer;
+}
+
+/* works 1, 4 text */
+.works-text {
+	margin-left : 15%;
+}
+
+.works-text p {
+	font-family : Oregano-Regular;
+	font-size : 1.2em;
+}
+
+/* works2 title */
+#works2-title{
+	left : 0;
+}
+
+/* works2 content */
+#works2-content iframe {
+	height : 100%;
+	position : relative;
+	padding-right : 3%;
+}
+
+/* works3 content */
+.works3-content video {
+	position : relative;
+	height : 460px;
+	width : auto;
+	margin-top : 5%;
+	margin-left : 15%;
+}
+
+/* works3 text */
+.works3-text {
+	position : relative;
+	margin-left : 15%;
+}
+
+.works3-text p {
+	font-family : Oregano-Regular;
+	font-size : 1.2em;
+}
+
+/* works4 content */
+#works4-content img {
+	height : 100%;
+	width : auto;
+	position : relative;
+	padding-right : 3%;
+	cursor : pointer;
+}
+
+.intro-foot {
+	position : relative;
+	clear : left;
+	padding : 10%;
+}
+
+.intro-foot p {
+	text-align : center;
+	font-family : larabiefont;
+	font-size : 0.75em;
+}
+
+/* works 화면 왼쪽의 button */
+.left-button {
+	position : fixed;
+	top : 0;
+	left : 0;
+	width : 4%;
+	height : 100%;
+	background-color : DarkGray;
+	opacity : 0.15;
+}
+
+.left-button i {
+	position : relative;
+	left : 27%;
+	top : 49%;
+	font-size : 3.2em;
+	color : white;
+}
+
+div.left-button:hover{
+	opacity : 0.55;
+}
